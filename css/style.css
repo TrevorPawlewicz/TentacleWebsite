@@ -8,12 +8,24 @@ body {
     te
 }
 
-.navbar-brand {
-    font-size: 1.8em;
+
+.navbar{
+    background-color: #886AEA;;
+    border-color: #e7e7e7;
+}
+.octo-nav {
+    height: 50px;
+    width: 50px;
 }
 
+
+/*.navbar-brand {
+    font-size: 1.8em;
+    color: white;
+}*/
+
 #topContainer {
-    background-image: url(../img/beach.jpg);
+    background-image: url(../img/party-pic.jpg);
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -25,8 +37,26 @@ body {
 }
 
 #topRow h1 {
-    color: #00008B;
+    color: #886AEA;
     font-size: 600%;
+    text-shadow:
+    -2px -2px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white;
+
+}
+
+/*//#00FFFF*/
+
+#topRow p {
+  color: #886AEA;
+  font-size: 30px;
+  text-shadow:
+  -2px -2px 0 white,
+  2px 2px 0 white,
+  -2px 2px 0 white,
+  2px -2px 0 white;
 }
 
 .bold {
@@ -40,6 +70,9 @@ body {
 .center {
     text-align: center;
 }
+.container{
+  color: #886AEA;
+}
 
 .title {
     margin-top: 60px;
@@ -52,6 +85,7 @@ body {
     background-color: #886AEA;
     padding-bottom: 10px;
     width: 100%;
+    color: white;
 }
 .octo {
     height: 100px;
